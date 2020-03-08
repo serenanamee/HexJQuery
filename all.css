@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	width: 1000px;
+	margin: 30px auto 0 auto;
+}
+.bar{
+	height: 30px;
+	background-color: #f6f6f6;
+}
+.bar ul{
+	float: right;
+}
+.bar ul li{
+	float: left;
+	margin: 5px;
+}
+.bar li a{
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.bar li img{
+	margin-right: 5px;
+	float: left;
+}
+
+.bar li span{
+	float: left;
+}
+.facebook{
+	border-right: 2px solid #ccc; 
+	padding-right: 8px; 
+}
+.twitter span{
+	color: #62c8f0;
+}
+.nav{
+	height: 65px;
+}
+.nav h1{
+	float: left;
+}
+
+.nav h1 a{
+	background-image: url(img/logo.png);
+	margin: 10px;
+	width: 174px;
+	height: 45px;
+	display: block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.nav ul{
+	float: right;
+}
+.nav ul li{
+	float: left;
+}
+.nav li a {
+	text-decoration: none;
+	display: block;
+	color: #00cc99;
+	padding: 25px 20px 20px 20px;
+}
+.swiper{
+	background-image: url(img/banner.png);
+	width: 1000px;
+	height: 412px;
+}
+.promo{
+	height: 150px;
+	background-color: #232221;
+	opacity:0.8;
+}
+.promo h2{
+	font-size: 36px;
+	color: white;
+}
